@@ -8,3 +8,4 @@ Esto se puede remediar declarando otra instancia (en la que usas otros 3 pines d
 Tambien es posible declarar 2 instancias con numeros distintos de registros conectados en cascada (esto lo aclaro por las dudas).
 
 
+Si quieres agradecer la contribucion, puedes donarme medinte  transferencia en paypal al correo: <leofig81@gmail.com>
