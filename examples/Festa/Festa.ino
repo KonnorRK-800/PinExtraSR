@@ -20,7 +20,7 @@ long Nrandom=0;               //variable donde se guardara un numero aleatorio.
 
 void setup()
 {
-/*Aqui no hace falta poner los pines 8,9,10 del arduino como salidas porque 
+/*Aqui no hace falta poner los pines 2,3,4 del arduino como salidas porque 
   la libreria lo hace de forma automatica al momento
   de crear la instancia.
 */
@@ -35,7 +35,7 @@ void loop()
   Nrandom = random(0,2);         //Volvemos a poner la variable Nrandom en un valor aleatorio entre 0 y 1.
   FestaSR.PinExtraNP(1,Nrandom); //Modificamos tambien el estado del pin 1 en la memoria, poniendo un 0 o un 1 de forma aleatoria.
   Nrandom = random(0,2);         // Ya pillais que hace aqui.
-  FestaSR.PinExtraNP(2,Nrandom); //(para los programadores avanzados) ¿Que si pude usar un buble for...? Si podia pero me daba pereza, a demas es solo un programa de ejemplo.
+  FestaSR.PinExtraNP(2,Nrandom); //(para los programadores avanzados) ¿Que si pude usar un bucle for...? Si podia pero me daba pereza, a demas es solo un programa de ejemplo.
   Nrandom = random(0,2);         // Ahora muchos llorareis. Waaa, waa como bebes. Todo porque hice un copy-paste del mismo par instrucciones 8 veces, en vez de usar un for.
   FestaSR.PinExtraNP(3,Nrandom); //
   Nrandom = random(0,2);         //
